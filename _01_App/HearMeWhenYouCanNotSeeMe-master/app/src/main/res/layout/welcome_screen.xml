@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/communicado"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="302dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/communicado" />
+
+    <Button
+        android:id="@+id/btnLearn"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="#949db7"
+        android:fontFamily="sans-serif-black"
+        android:text="Learn to Sign"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSignText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#949db7"
+        android:fontFamily="sans-serif-black"
+        android:text="Sign Language Translation"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText"
+        />
+
+    <Button
+        android:id="@+id/btnTextSign"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#949db7"
+        android:fontFamily="sans-serif-black"
+        android:text="Text to Sign"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAllCaps="false"
+        android:textSize="40dp"
+        android:textColor="#949DB7"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="30dp"
+        />
+</LinearLayout>
